@@ -7,6 +7,42 @@
   <link rel="shortcut icon" href="favicon.ico">
   <link rel="icon" type="image/icon" href="favicon.ico">
   <title>The Outlaw Red Ivan Dogwood</title>
+
+<style>
+  @font-face {
+    font-display: block;
+    font-family: Roboto;
+    src: url(https://assets.sendinblue.com/font/Roboto/Latin/normal/normal/7529907e9eaf8ebb5220c5f9850e3811.woff2) format("woff2"), url(https://assets.sendinblue.com/font/Roboto/Latin/normal/normal/25c678feafdc175a70922a116c9be3e7.woff) format("woff")
+  }
+
+  @font-face {
+    font-display: fallback;
+    font-family: Roboto;
+    font-weight: 600;
+    src: url(https://assets.sendinblue.com/font/Roboto/Latin/medium/normal/6e9caeeafb1f3491be3e32744bc30440.woff2) format("woff2"), url(https://assets.sendinblue.com/font/Roboto/Latin/medium/normal/71501f0d8d5aa95960f6475d5487d4c2.woff) format("woff")
+  }
+
+  @font-face {
+    font-display: fallback;
+    font-family: Roboto;
+    font-weight: 700;
+    src: url(https://assets.sendinblue.com/font/Roboto/Latin/bold/normal/3ef7cf158f310cf752d5ad08cd0e7e60.woff2) format("woff2"), url(https://assets.sendinblue.com/font/Roboto/Latin/bold/normal/ece3a1d82f18b60bcce0211725c476aa.woff) format("woff")
+  }
+
+  #sib-container input:-ms-input-placeholder {
+    text-align: left;
+    font-family: "Helvetica", sans-serif;
+    color: #c0ccda;
+  }
+
+  #sib-container input::placeholder {
+    text-align: left;
+    font-family: "Helvetica", sans-serif;
+    color: #c0ccda;
+  }
+</style>
+<link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
+
 </head>
   <!-- 
   <link rel="stylesheet" href="css/themes/slim.css">
@@ -31,5 +67,50 @@ Your browser does not support the audio element.
 Your browser does not support the audio element.
 </audio>
 <p style="color:antiquewhite; font-size:small; text-align:center;font-family:copperplate;margin-top:auto;">(Studio) Ease My Mind</p>
+
+<div class="sib-form" style="text-align: center;
+         background-color: transparent;                                           ">
+  <div id="sib-form-container" class="sib-form-container">
+    <div id="sib-container" class="sib-container--small sib-container--vertical" style="text-align:center; background-color:rgba(0,0,0,1); max-width:200px; border-radius:22px; border-width:1px; border-color:#C0CCD9; border-style:solid;">
+      <form id="sib-form" method="POST" action="https://a119c92f.sibforms.com/serve/MUIEAFmrab6bLFhGnBIJg3CLg0wGpx96Odtrd_sNsonVQ9RaVBVU7cPSRySJt67s414aYeI1Ukdn7j1LoziR-9rDXouSR7TTSKeyD8vptkuW42lA_vBhrgUH77Lyg6jjVM331UK8iNPVtZJ2T8GLG8WEXlWYceK5t8q6IljjzjwiKz8oSYrEMYIcSAU5k-sb-Lt4wIGPiJGALqas">
+        <div style="padding: 8px 0;">
+          <div class="sib-form-block" style="font-size:16px; text-align:center; font-family:&quot;Helvetica&quot;, sans-serif; color:#bfbfc0; background-color:transparent; text-align:center">
+            <div class="sib-text-form-block">
+              <p>Subscribe to our mailing list to stay updated.</p>
+            </div>
+          </div>
+        </div>
+        <div style="padding: 8px 0;">
+          <div class="sib-input sib-form-block">
+            <div class="form__entry entry_block">
+              <div class="form__label-row ">
+
+                <div class="entry__field">
+                  <input class="input " type="text" id="EMAIL" name="EMAIL" autocomplete="off" placeholder="EMAIL" data-required="true" required />
+                </div>
+              </div>
+
+              <label class="entry__error entry__error--primary" style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;">
+              </label>
+            </div>
+          </div>
+        </div>
+        <div style="padding: 8px 0;">
+          <div class="sib-form-block" style="text-align: center">
+            <button class="sib-form-block__button sib-form-block__button-with-loader" style="font-size:16px; text-align:center; font-weight:700; font-family:&quot;Trebuchet MS&quot;, sans-serif; color:#FFFFFF; background-color:#145fe2; border-radius:20px; border-width:0px;" form="sib-form" type="submit">
+              <svg class="icon clickable__icon progress-indicator__icon sib-hide-loader-icon" viewBox="0 0 512 512">
+                <path d="M460.116 373.846l-20.823-12.022c-5.541-3.199-7.54-10.159-4.663-15.874 30.137-59.886 28.343-131.652-5.386-189.946-33.641-58.394-94.896-95.833-161.827-99.676C261.028 55.961 256 50.751 256 44.352V20.309c0-6.904 5.808-12.337 12.703-11.982 83.556 4.306 160.163 50.864 202.11 123.677 42.063 72.696 44.079 162.316 6.031 236.832-3.14 6.148-10.75 8.461-16.728 5.01z" />
+              </svg>
+              Cool
+            </button>
+          </div>
+        </div>
+        <input type="text" name="email_address_check" value="" class="input--hidden">
+        <input type="hidden" name="locale" value="en">
+        <input type="hidden" name="html_type" value="simple">
+      </form>
+    </div>
+  </div>
+</div>
 </body>
 </html>
